@@ -1,0 +1,61 @@
+ @import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/* ---------- TIMER ---------- */
+
+#block-ggp-countdown-ggp-countdown .block-content { background-image: url(/sites/www.assassinscreed.de/files/images/sonstiges/countdown_bg01.jpg);background-position: center center;background-size: cover;background-repeat: no-repeat;padding:-1px -2px; }
+#ggp-countdown { font-size:15px;color:#6da5be;padding: 2px;line-height:120%;text-shadow: 1px 1px 1px rgba(0,0,0,1); 
+/*display: block;
+  background-color: rgba(170,184,193,0.3);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0,0,0,0.85)));
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: -o-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.85));
+  border: 1px solid rgba(170,184,193,0.35);
+  border-radius:4px;
+  width: 92%;
+  margin:3px auto 3px;
+  text-align: center;
+  box-shadow: 1px 0px 5px rgba(0,0,0,0.7);*/ }
+  
+.timer-area { margin:5px auto 0;text-align:center;font-family: Oswald, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+.timer-area ul {
+  margin:0 auto;
+}
+ul#countdown li {
+  display: inline-block;
+  background-color: rgba(170,184,193,0.3);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0,0,0,0.85)));
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: -o-linear-gradient(top, transparent, rgba(0,0,0,0.85));
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.85));
+  border: 1px solid rgba(170,184,193,0.35);
+  border-radius:4px;
+  width: 63px;
+  margin:0 1.5px 3px;
+  text-align: center;
+  box-shadow: 1px 0px 5px rgba(0,0,0,0.7);
+}
+ul#countdown li span {
+  font-size: 2.538em;
+  font-weight: 400;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  font-family: Oswald, Arial, Helvetica, Geneva, sans-serif;
+  margin-top: 0em;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 0.846em;
+  text-align:center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+ul#countdown p { margin-bottom:0px; }
